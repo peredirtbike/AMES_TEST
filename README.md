@@ -7,7 +7,7 @@ Aquest repositori conté un projecte FullStack desenvolupat amb Spring Boot per 
 - [Descripció](#descripció)
 - [Característiques](#característiques)
 - [Requisits](#requisits)
-- [Instruccions d'instal·lació](#instruccions-dinstalació)
+- [Instruccions d'instal·lació](#instruccions-d'instalació)
 - [Execució del projecte](#execució-del-projecte)
 - [Contacte](#contacte)
 
