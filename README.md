@@ -46,16 +46,17 @@ docker-compose up --build -d
 ```bash
 docker ps
 ```
+4. Si tot ha anat bé, ja estarà el projecte funcionant.
 
 ## Execució del projecte
-  ###frontend
+### Frontend
   per accedir al frontend, accedirem a aquesta URL
-  [Home](https://localhost:5173)
-  [Vista clients](https://localhost:5173/clients)
+  [https://localhost:5173](https://localhost:5173)
+  [https://localhost:5173/clients](https://localhost:5173/clients)
 
   ##backend
-  [Home](https://localhost:8080)
-  [Documentació](https://localhost:8080/docs)
+  [https://localhost:8080](https://localhost:8080)
+  [https://localhost:8080/docs](https://localhost:8080/docs)
 
 ## Contacte
 Si tens alguna pregunta o consulta, no dubtis a posar-te en contacte amb nosaltres a peredirtbike@gmail.com.
