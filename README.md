@@ -7,7 +7,7 @@ Aquest repositori conté un projecte FullStack desenvolupat amb Spring Boot per 
 - [Descripció](#descripció)
 - [Característiques](#característiques)
 - [Requisits](#requisits)
-- [Instruccions d'instal·lació](#Instruccions-d'instal·lació)
+- [Instruccions d'instal·lació](#Instruccions-de-instal·lació)
 - [Execució del projecte](#execució-del-projecte)
 - [Contacte](#contacte)
 
@@ -30,7 +30,7 @@ Abans d'instal·lar i executar aquest projecte, assegura't de tenir instal·lat 
 - Docker: [https://www.docker.com/get-started](https://www.docker.com/get-started)
 - Git: [https://git-scm.com/download/](https://git-scm.com/download/)
 
-## Instruccions d'instal·lació
+## Instruccions de instal·lació
 
 1. Clona aquest repositori a la teva màquina local:
 
