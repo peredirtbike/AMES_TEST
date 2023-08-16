@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  # Contenedor de MySQL
+  db:
+    image: mysql:5.7
+    container_name: db
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: ames
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+  # Contenedor de la aplicación de Spring Boot
+  backend:
+    container_name: backend
+    build:
+      context: ./AMES_TechnicalTest
+    image: backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  # Contenedor de la aplicación de Vue.js
+  frontend:
+    container_name: frontend
+    build:
+      context: ./ames_frontend
+    image: frontend
+    ports:
+      - "5173:5173"
+
+volumes:
+  db_data:

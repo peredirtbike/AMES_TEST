@@ -1,0 +1,9 @@
+/* global.css */
+
+/* Importar la fuente Roboto desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Definir la fuente para todo el cuerpo del documento */
+body {
+  font-family: 'Roboto', sans-serif;
+}
