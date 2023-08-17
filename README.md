@@ -50,7 +50,7 @@ docker ps
 
 ## Execució del projecte
 ### Frontend
-per accedir al frontend, accedirem a aquestes URL:
+per accedir al frontend, accedirem a aquestes URL:  
 A aquesta URL, accedirem a la home del frontEnd.
   [https://localhost:5173](https://localhost:5173)
 
